@@ -1,0 +1,37 @@
+{
+  "name": "@onthecut/crt-open-data",
+  "version": "1.0.0",
+  "description": "Canal and River Trust (CRT) Canals",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc *.ts",
+    "test": "ts-node test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onthecut/crt-open-data.git"
+  },
+  "keywords": [
+    "canals",
+    "uk",
+    "waterways",
+    "boating",
+    "geojson"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onthecut/crt-open-data/issues"
+  },
+  "homepage": "https://github.com/onthecut/crt-open-data#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "tape": "^4.11.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
