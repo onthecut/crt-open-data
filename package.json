@@ -4,8 +4,8 @@
   "description": "Canal and River Trust (CRT) Canals",
   "main": "index.js",
   "scripts": {
-    "build": "tsc *.ts",
-    "test": "ts-node test.ts"
+    "build": "tsc --esModuleInterop *.ts",
+    "test": "npm run build && node test.js"
   },
   "repository": {
     "type": "git",
