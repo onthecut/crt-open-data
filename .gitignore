@@ -1,5 +1,4 @@
 data/*.json
 node_modules/
 index.js
-package-lock.json
 test.js
