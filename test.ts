@@ -1,5 +1,5 @@
 import load, { DATASETS } from '.';
-import * as test from 'tape';
+import test from 'tape';
 
 const names = Object.keys(DATASETS)
 
